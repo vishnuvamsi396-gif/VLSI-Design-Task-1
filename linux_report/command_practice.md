@@ -30,7 +30,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `ls -la` | Listed the project root, including hidden `.git` and `.gitignore` entries and project folders | 2026-11-01 |
 | `ls -lh waveforms/` | Confirmed the README and seven PNG waveform screenshots were present | 2026-11-01 |
 | `pwd` | Printed `/home/vishn/VLSI-Design-Task-1` | 2026-11-01 |
-| `cd` | Change directory | Pending |
+| `cd ..` | Changed from the project folder to its parent; `pwd` showed `/home/vishn` | 2026-11-01 |
 | `mkdir -p` | Create project folders | Pending |
 | `cp` | Copy a source file | Pending |
 | `mv` | Rename/move a file | Pending |
