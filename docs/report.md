@@ -27,7 +27,7 @@ The included suite was run in WSL using `bash scripts/run_all.sh`. All six testb
 
 ## 5. Waveform observations
 
-**Pending.** Open each VCD in GTKWave, inspect relevant inputs, outputs, and carry transitions, and add genuine screenshots under `waveforms/`. Record what each screenshot demonstrates.
+The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` and `b=1`, the operation select steps through AND (`00`), OR (`01`), XOR (`10`), and addition (`11`). During addition, the observed result is `0` and `carry_out` is `1`, as expected for 4-bit unsigned overflow. The genuine screenshot is `waveforms/arithmetic_logic_library.png`.
 
 ## 6. Environment and Linux practice
 
