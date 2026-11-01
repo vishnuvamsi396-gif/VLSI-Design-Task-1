@@ -34,7 +34,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `mkdir -p ~/vlsi-task1-practice` | Created `/home/vishn/vlsi-task1-practice`; a later listing typo used `vlsi-task1-practic` and returned “No such file or directory” | 2026-11-01 |
 | `cp README.md ~/vlsi-task1-practice/README-copy.md` | Copied the repository README to the scratch folder; `ls -l` showed `README-copy.md` (3,090 bytes) | 2026-11-01 |
 | `mv ~/vlsi-task1-practice/README-copy.md ~/vlsi-task1-practice/README-renamed.md` | Renamed the scratch copy; `ls -l` showed `README-renamed.md` (3,090 bytes) | 2026-11-01 |
-| `rm` | Remove a disposable file | Pending |
+| `rm ~/vlsi-task1-practice/README-renamed.md` | Removed the disposable scratch copy; `ls -la` confirmed the scratch folder was empty | 2026-11-01 |
 | `cat linux_report/command_practice.md` | Displayed the Linux command practice report in the terminal | 2026-11-01 |
 | `nano` | Edit a text file | Pending |
 | `chmod` | Set script execute permission | Pending |
