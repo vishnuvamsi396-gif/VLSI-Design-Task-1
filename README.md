@@ -4,7 +4,7 @@ Starter submission for Sumerix Global's VLSI Design and Semiconductor Engineerin
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. The mini-project waveform was inspected in GTKWave and its screenshot is included; the student's environment setup report and any additional waveform views remain pending.
+RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project and the earlier AND/OR/XOR, half/full-adder, and 2:1 mux runs. The student's environment setup report remains pending.
 
 ## Contents
 
@@ -43,7 +43,7 @@ Open a generated waveform, for example:
 gtkwave simulation/vcd/tb_arithmetic_logic_library.vcd
 ```
 
-The verified mini-project screenshot is `waveforms/arithmetic_logic_library.png`. Add any additional testbench screenshots to `waveforms/`; do not label an expected-output table as a simulation result.
+GTKWave screenshots are in `waveforms/`. The project includes the mini-project overflow case plus screenshots for the AND/OR/XOR gates, half/full adders, and 2:1 mux. Add other testbench screenshots if you inspect those waveforms; do not label an expected-output table as a simulation result.
 
 ## Assignment checklist
 
