@@ -4,7 +4,7 @@ Organized project submission for Sumerix Global's VLSI Design and Semiconductor 
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, including VS Code 1.138.0, plus observed Linux/Git command practice, are recorded in the reports.
+RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, including VS Code 1.138.0 and the verified Verilog extension, plus observed Linux/Git command practice, are recorded in the reports.
 
 ## Contents
 
@@ -26,7 +26,7 @@ RTL and testbench sources are prepared. The included suite was run in WSL with I
 - Visual Studio Code with a Verilog HDL extension
 - Git
 
-This workspace recommends the Verilog HDL/SystemVerilog extension from the VS Code Marketplace in [`.vscode/extensions.json`](.vscode/extensions.json). Open the repository in VS Code and accept its extension recommendation. The recommendation file helps configure the workspace; install and verify the extension in your editor to complete the local setup.
+This workspace recommends the Verilog HDL/SystemVerilog extension from the VS Code Marketplace in [`.vscode/extensions.json`](.vscode/extensions.json). The student confirmed `mshr-h.veriloghdl` installed in the WSL VS Code extension host. When opening the repository in another VS Code environment, accept the workspace extension recommendation and verify the installation there.
 
 Check the tools with `iverilog -V`, `vvp -V`, `gtkwave --version`, and `git --version`.
 
