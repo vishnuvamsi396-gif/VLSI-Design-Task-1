@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Four-bit ripple-carry adder block diagram</title>
+  <desc id="desc">Four full-adder stages add corresponding bits of A and B. Carry ripples from the least significant stage through each higher stage to Cout.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+    <style>
+      .bg{fill:#f8fbff}.block{fill:#fff;stroke:#2563eb;stroke-width:3;rx:16}.line{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#arrow)}.wire{stroke:#059669;stroke-width:4;fill:none;marker-end:url(#arrow)}.title{font:700 32px Arial,sans-serif;fill:#17365d}.stage{font:700 21px Arial,sans-serif;fill:#17365d}.label{font:18px Arial,sans-serif;fill:#334155}.note{font:18px Arial,sans-serif;fill:#475569}
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="440" rx="18"/>
+  <text class="title" x="640" y="52" text-anchor="middle">4-Bit Ripple-Carry Adder</text>
+  <text class="note" x="640" y="84" text-anchor="middle">Four cascaded full adders; each carry-out feeds the next more-significant bit</text>
+
+  <rect class="block" x="90" y="155" width="220" height="150"/><text class="stage" x="200" y="185" text-anchor="middle">Full Adder 0</text>
+  <text class="label" x="120" y="225">A₀, B₀, Cin</text><text class="label" x="120" y="270">Sum₀, C₁</text>
+
+  <rect class="block" x="390" y="155" width="220" height="150"/><text class="stage" x="500" y="185" text-anchor="middle">Full Adder 1</text>
+  <text class="label" x="420" y="225">A₁, B₁, C₁</text><text class="label" x="420" y="270">Sum₁, C₂</text>
+
+  <rect class="block" x="690" y="155" width="220" height="150"/><text class="stage" x="800" y="185" text-anchor="middle">Full Adder 2</text>
+  <text class="label" x="720" y="225">A₂, B₂, C₂</text><text class="label" x="720" y="270">Sum₂, C₃</text>
+
+  <rect class="block" x="990" y="155" width="220" height="150"/><text class="stage" x="1100" y="185" text-anchor="middle">Full Adder 3</text>
+  <text class="label" x="1020" y="225">A₃, B₃, C₃</text><text class="label" x="1020" y="270">Sum₃, Cout</text>
+
+  <path class="wire" d="M310 250H380"/><text class="label" x="345" y="238" text-anchor="middle">C₁</text>
+  <path class="wire" d="M610 250H680"/><text class="label" x="645" y="238" text-anchor="middle">C₂</text>
+  <path class="wire" d="M910 250H980"/><text class="label" x="945" y="238" text-anchor="middle">C₃</text>
+  <path class="line" d="M35 250H80"/><text class="label" x="35" y="230">Cin</text>
+  <path class="line" d="M1215 250H1255"/><text class="label" x="1220" y="230">Cout</text>
+  <text class="note" x="640" y="365" text-anchor="middle">A[3:0] + B[3:0] + Cin → {Cout, Sum[3:0]}</text>
+</svg>
