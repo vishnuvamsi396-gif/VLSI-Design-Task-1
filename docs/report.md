@@ -5,6 +5,8 @@
 **Project:** Digital Arithmetic Logic Circuit Library Using Verilog HDL  
 **Repository:** https://github.com/vishnuvamsi396-gif/VLSI-Design-Task-1
 
+The generated PDF snapshot is `docs/task1_project_report.pdf`. Rebuild it with `python3 scripts/build_report_pdf.py` after updating this editable report and adding the remaining evidence.
+
 ## 1. Objective
 
 Build a small reusable combinational RTL library and practice the Task 1 workflow: digital logic design, Verilog coding, self-checking testbench development, simulation, waveform inspection, and version-controlled documentation.
