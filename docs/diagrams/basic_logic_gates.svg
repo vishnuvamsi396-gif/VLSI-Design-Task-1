@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="880" viewBox="0 0 1100 880" role="img" aria-labelledby="title desc">
+  <title id="title">Basic logic gate symbols</title>
+  <desc id="desc">Input and output symbols for AND, NAND, OR, NOR, XOR, XNOR, and NOT gates.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8fbff}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.gate{fill:#eaf2f8;stroke:#17365d;stroke-width:4;stroke-linejoin:round}.wire{stroke:#334155;stroke-width:4;fill:none}.label{font:700 24px Arial,sans-serif;fill:#17365d}.pin{font:18px Arial,sans-serif;fill:#475569}.title{font:700 34px Arial,sans-serif;fill:#17365d}
+    </style>
+  </defs>
+  <rect class="bg" width="1100" height="620" rx="18"/>
+  <text class="title" x="550" y="48" text-anchor="middle">Basic Logic Gate Symbols</text>
+  <g transform="translate(25,75)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">AND</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H125 M55 160H125 M225 129H292"/>
+    <path class="gate" d="M125 80H167 A49 49 0 0 1 167 178 H125 Z"/><text class="pin" x="300" y="135">Y</text>
+  </g>
+  <g transform="translate(382,75)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">NAND</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H125 M55 160H125 M225 129H270"/>
+    <path class="gate" d="M125 80H167 A49 49 0 0 1 167 178 H125 Z"/><circle cx="281" cy="129" r="11" fill="#fff" stroke="#17365d" stroke-width="4"/><path class="wire" d="M292 129H308"/><text class="pin" x="300" y="160">Y</text>
+  </g>
+  <g transform="translate(739,75)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">OR</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H101 M55 160H101 M225 129H292"/>
+    <path class="gate" d="M101 80 Q146 82 177 92 Q205 103 225 129 Q205 155 177 166 Q146 176 101 178 Q132 129 101 80 Z"/><text class="pin" x="300" y="135">Y</text>
+  </g>
+  <g transform="translate(25,340)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">NOR</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H101 M55 160H101 M225 129H270"/>
+    <path class="gate" d="M101 80 Q146 82 177 92 Q205 103 225 129 Q205 155 177 166 Q146 176 101 178 Q132 129 101 80 Z"/><circle cx="281" cy="129" r="11" fill="#fff" stroke="#17365d" stroke-width="4"/><path class="wire" d="M292 129H308"/><text class="pin" x="300" y="160">Y</text>
+  </g>
+  <g transform="translate(382,340)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">XOR</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H106 M55 160H106 M225 129H292"/>
+    <path class="gate" d="M106 80 Q151 82 182 92 Q210 103 230 129 Q210 155 182 166 Q151 176 106 178 Q137 129 106 80 Z"/><path d="M91 80 Q122 129 91 178" fill="none" stroke="#17365d" stroke-width="4"/><text class="pin" x="300" y="135">Y</text>
+  </g>
+  <g transform="translate(739,340)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">XNOR</text>
+    <text class="pin" x="24" y="104">A</text><text class="pin" x="24" y="166">B</text>
+    <path class="wire" d="M55 98H106 M55 160H106 M230 129H270"/>
+    <path class="gate" d="M106 80 Q151 82 182 92 Q210 103 230 129 Q210 155 182 166 Q151 176 106 178 Q137 129 106 80 Z"/><path d="M91 80 Q122 129 91 178" fill="none" stroke="#17365d" stroke-width="4"/><circle cx="281" cy="129" r="11" fill="#fff" stroke="#17365d" stroke-width="4"/><path class="wire" d="M292 129H308"/><text class="pin" x="300" y="160">Y</text>
+  </g>
+  <g transform="translate(25,605)">
+    <rect class="card" width="335" height="235" rx="14"/><text class="label" x="167" y="38" text-anchor="middle">NOT</text>
+    <text class="pin" x="24" y="136">A</text><path class="wire" d="M55 129H128"/>
+    <path class="gate" d="M128 83 L128 175 L220 129 Z"/><circle cx="233" cy="129" r="11" fill="#fff" stroke="#17365d" stroke-width="4"/><path class="wire" d="M244 129H292"/><text class="pin" x="300" y="135">Y</text>
+  </g>
+</svg>
