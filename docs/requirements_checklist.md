@@ -22,7 +22,7 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Project documentation PDF | `docs/task1_project_report.pdf`; editable source in `docs/report.md` | Included with waveform and reported environment evidence |
 | Linux command practice report | `linux_report/command_practice.md` | Ubuntu/tool versions and observed command exercises recorded |
 | Daily progress log | `progress_log/progress.md` | Actual dated project and student terminal-work entries recorded; add future work as completed |
-| Ubuntu/WSL, Icarus, GTKWave, Git, and VS Code environment | `linux_report/command_practice.md` | Tool versions and VS Code 1.138.0 are recorded from student-reported output; Verilog extension setup is not yet evidenced |
+| Ubuntu/WSL, Icarus, GTKWave, Git, and VS Code environment | `linux_report/command_practice.md`, `.vscode/extensions.json` | Tool versions and VS Code 1.138.0 are recorded; workspace recommends a Verilog extension, but local installation/configuration still needs verification |
 | LinkedIn post link | Submitted separately in the internship form | Separate required form field; publish the post and enter its URL there |
 
 ## Evaluation areas (100 marks)
