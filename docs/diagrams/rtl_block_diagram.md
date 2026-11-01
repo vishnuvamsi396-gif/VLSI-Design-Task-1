@@ -1,12 +1,6 @@
-# RTL block diagram
+# RTL Block Diagram
 
-```mermaid
-flowchart LR
-  A[4-bit operand A] --> U[Arithmetic Logic Library]
-  B[4-bit operand B] --> U
-  S[2-bit operation select] --> U
-  U --> R[4-bit result]
-  U --> C[Carry out for addition]
-```
+![RTL block diagram for the 4-bit arithmetic/logic library](rtl_block_diagram.svg)
 
-The selector chooses bitwise AND (`00`), OR (`01`), XOR (`10`), or unsigned addition (`11`).
+The 2-bit operation select chooses AND (`00`), OR (`01`), XOR (`10`), or unsigned addition (`11`). The carry output is meaningful for addition.
+
