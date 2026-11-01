@@ -10,20 +10,21 @@ An ASIC is a custom integrated circuit designed for a specific product or worklo
 | Up-front cost | Higher design and fabrication cost | Lower initial cost; no custom mask set |
 | Per-unit economics | Often favorable at high volume | Often favorable for prototypes and low volume |
 | Typical use | Production SoCs, phone processors, custom accelerators | FPGA prototyping, instrumentation, adaptable networking |
+| Practical industry example | A high-volume smartphone application processor or custom accelerator manufactured for a product | Prototyping an ASIC RTL design before fabrication, or updating an industrial control design after deployment |
 | Iteration | RTL changes generally require a new fabrication cycle to change silicon | Bitstream can be revised and loaded without fabricating a new chip |
 | Trade-off | Long development cycle and manufacturing commitment | Programmable routing and logic can cost power, area, or performance |
 
 Typical digital IC flow: specification -> architecture -> RTL -> functional verification -> synthesis -> implementation (floorplan, placement, clock-tree synthesis, routing) -> signoff -> fabrication. This repository covers introductory RTL and simulation, not physical design or signoff.
 
-Logic gate symbols are provided in [`diagrams/basic_logic_gates.svg`](diagrams/basic_logic_gates.svg). The mini-project RTL block and simulation workflow are in the same diagrams folder.
+Logic gate symbols are provided in [`diagrams/basic_logic_gates.svg`](diagrams/basic_logic_gates.svg). The mini-project RTL block, [ripple-carry adder architecture](diagrams/ripple_carry_adder.md), and simulation workflow are in the same diagrams folder. See the [diagram gallery](diagrams/README.md) for all previewable diagrams.
 
 ## Boolean functions and truth tables
 
 | A | B | AND | OR | XOR | NAND | NOR | XNOR |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| 0 | 1 | 0 | 1 | 1 | 1 | 0 | 0 |
-| 1 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 1 | 1 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 |
 
 | A | NOT A |
