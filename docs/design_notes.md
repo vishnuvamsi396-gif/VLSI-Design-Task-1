@@ -22,9 +22,9 @@ Logic gate symbols are provided in [`diagrams/basic_logic_gates.svg`](diagrams/b
 
 | A | B | AND | OR | XOR | NAND | NOR | XNOR |
 |---:|---:|---:|---:|---:|---:|---:|---:|
-| 0 | 0 | 0 | 0 | 1 | 1 | 1 |
-| 0 | 1 | 0 | 1 | 1 | 1 | 0 |
-| 1 | 0 | 0 | 1 | 1 | 1 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 |
+| 0 | 1 | 0 | 1 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 1 |
 
 | A | NOT A |
