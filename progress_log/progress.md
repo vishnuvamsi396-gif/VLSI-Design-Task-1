@@ -12,4 +12,5 @@ Add one entry after each real work session. Do not backdate or mark planned task
 | 2026-11-01 | Student created `/home/vishn/vlsi-task1-practice` with `mkdir -p`; a follow-up listing had a harmless path typo | `linux_report/command_practice.md` | Continue copy, rename, and file-reading practice in the scratch folder |
 | 2026-11-01 | Student copied `README.md` to `/home/vishn/vlsi-task1-practice/README-copy.md` and verified the 3,090-byte file with `ls -l` | `linux_report/command_practice.md` | Continue the remaining safe file-operation exercises if needed |
 | 2026-11-01 | Student renamed the scratch copy to `README-renamed.md` with `mv` and verified the result with `ls -l` | `linux_report/command_practice.md` | Continue the remaining safe file-operation exercises if needed |
+| 2026-11-01 | Student removed the disposable scratch copy with `rm` and verified that the scratch folder was empty | `linux_report/command_practice.md` | Continue any remaining required command practice |
 
