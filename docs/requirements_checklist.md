@@ -10,7 +10,7 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Mini-project: Digital Arithmetic Logic Circuit Library | `rtl/arithmetic_logic_library.v` | Prepared |
 | Testbench for every module family | `testbench/` | Prepared; all passed in WSL |
 | Simulation outputs | `simulation/results/` | Included: six successful run logs |
-| GTKWave screenshots | `waveforms/` | Pending genuine visual inspection |
+| GTKWave screenshots | `waveforms/arithmetic_logic_library.png` | Mini-project overflow case inspected and captured; add other views if requested |
 | Logic gate diagrams, truth tables, K-map solutions | `docs/design_notes.md`, `docs/diagrams/` | Prepared |
 | RTL block diagram and simulation workflow | `docs/diagrams/` | Prepared |
 | Project folder structure and README | `README.md` | Prepared |
