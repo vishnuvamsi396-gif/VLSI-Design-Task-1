@@ -138,15 +138,34 @@ story.append(table([
     ["tb_parameterized_adder", "1,024 deterministic 8-bit cases", "PASS"],
     ["tb_arithmetic_logic_library", "All 4 operations across 16 x 16 operands", "PASS"],
 ], [50 * mm, 83 * mm, 31 * mm]))
-story += [Spacer(1, 4 * mm), P("The corresponding simulator logs are in `simulation/results/`; VCD traces are in `simulation/vcd/`. The run script is `scripts/run_all.sh` and returns a failure status if compilation or an assertion fails."), PageBreak(), P("7. GTKWave waveform evidence", "Section"), P("The mini-project trace was inspected from 964 ns to 968 ns with a=F and b=1. The operation select steps through AND, OR, XOR, and addition. For operation 11 (addition), the observed result is 0 and carry_out is 1, demonstrating 4-bit unsigned overflow."), Image(str(ROOT / "waveforms" / "arithmetic_logic_library.png"), width=174 * mm, height=92.4 * mm), P("8. Environment evidence and conclusion", "Section"), P("The student's Ubuntu/WSL distribution, tool versions, and Linux command practice are not recorded yet. Add those personal observations to `linux_report/command_practice.md`."), P("The RTL source and self-checking verification suite are prepared and all six testbenches passed. One genuine GTKWave screenshot is included. Complete the local environment record and personal learning log before treating the submission checklist as fully complete."), P("Repository checklist", "SubSection")]
+story += [Spacer(1, 4 * mm), P("The corresponding simulator logs are in `simulation/results/`; VCD traces are in `simulation/vcd/`. The run script is `scripts/run_all.sh` and returns a failure status if compilation or an assertion fails."), PageBreak(), P("7. GTKWave waveform evidence", "Section"), P("The mini-project trace was inspected from 964 ns to 968 ns with a=F and b=1. The operation select steps through AND, OR, XOR, and addition. For operation 11 (addition), the observed result is 0 and carry_out is 1, demonstrating 4-bit unsigned overflow."), Image(str(ROOT / "waveforms" / "arithmetic_logic_library.png"), width=174 * mm, height=92.4 * mm), P("8. Environment evidence and conclusion", "Section"), P("The student's Ubuntu/WSL distribution, tool versions, and Linux command practice are not recorded yet. Add those personal observations to `linux_report/command_practice.md`."), P("The RTL source and self-checking verification suite are prepared and all six testbenches passed. Seven genuine GTKWave screenshots are included across the mini-project, gates, adders, and 2:1 mux. Complete the local environment record and personal learning log before treating the submission checklist as fully complete."), P("Repository checklist", "SubSection")]
 story.append(table([
     ["Deliverable", "Status"],
     ["RTL and testbench source", "Prepared; all six testbenches passed"],
     ["Simulation logs and VCD traces", "Included from the recorded WSL run"],
     ["Logic/K-map/design notes and workflow diagrams", "Included in docs/"],
-    ["GTKWave screenshot evidence", "Mini-project overflow waveform included"],
+    ["GTKWave screenshot evidence", "Seven screenshots: mini-project, gates, adders, and 2:1 mux"],
     ["Linux environment practice evidence", "Pending student completion"],
 ], [80 * mm, 84 * mm]))
+
+gallery_items = [
+    ("and_gate.png", "AND gate: a, b, and y across the four input combinations."),
+    ("or_gate.png", "OR gate: output remains high when either input is high."),
+    ("xor_gate.png", "XOR gate: output is high when the inputs differ."),
+    ("half_adder.png", "Half adder: sum and carry outputs."),
+    ("full_adder.png", "Full adder: sum and carry-out across all input combinations."),
+    ("mux2to1.png", "2:1 mux: output follows the selected data input."),
+]
+gallery_cells = []
+for filename, caption in gallery_items:
+    shot = Image(str(ROOT / "waveforms" / filename), width=80 * mm, height=42.5 * mm)
+    card = Table([[shot], [P(caption, "Cell")]], colWidths=[84 * mm], hAlign="LEFT")
+    card.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2)]))
+    gallery_cells.append(card)
+story += [PageBreak(), P("9. Additional GTKWave screenshots", "Section"), P("These genuine screenshots were supplied from earlier GTKWave runs and complement the mini-project overflow capture on the previous page.")]
+gallery = Table([gallery_cells[i:i+2] for i in range(0, len(gallery_cells), 2)], colWidths=[86 * mm, 86 * mm], hAlign="LEFT")
+gallery.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 2), ("RIGHTPADDING", (0, 0), (-1, -1), 2), ("TOPPADDING", (0, 0), (-1, -1), 3), ("BOTTOMPADDING", (0, 0), (-1, -1), 3)]))
+story.append(gallery)
 
 doc.build(story, onFirstPage=footer, onLaterPages=footer)
 print(OUTPUT)
