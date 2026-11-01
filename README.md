@@ -47,7 +47,7 @@ Add the testbench signals to the GTKWave view, inspect transitions, and save an 
 
 ## Assignment checklist
 
-See [`docs/requirements_checklist.md`](docs/requirements_checklist.md). In particular, the PDF requires a project documentation PDF and evidence of environment setup and GTKWave waveform inspection. The Markdown report is the editable source for the report; export it to PDF after adding the actual run results and screenshots.
+See [`docs/requirements_checklist.md`](docs/requirements_checklist.md). The generated report PDF is `docs/task1_project_report.pdf`; its reproducible source is `scripts/build_report_pdf.py`. Update the report with the pending GTKWave screenshots and personal environment evidence, then regenerate the PDF before final submission.
 
 ## Mini-project
 
