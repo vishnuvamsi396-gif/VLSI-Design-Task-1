@@ -33,4 +33,5 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Documentation and GitHub | 5 |
 | **Total** | **100** |
 
-Only mark command exercises complete when their actual output is recorded. If the submission form asks for a LinkedIn post URL, provide it in that separate form field; the GitHub repository link does not replace it.
+Only mark command exercises complete when their actual output is recorded. Publish the LinkedIn post and provide its URL in the separate internship form field; the GitHub repository link does not replace it.
+
