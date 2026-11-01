@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Verilog simulation workflow</title>
+  <desc id="desc">RTL and testbench are compiled with Icarus Verilog, run with VVP, checked with assertions, then output logs and VCD waveforms are inspected in GTKWave and saved as screenshots.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#475569"/></marker>
+    <style>
+      .bg{fill:#f8fbff}.box{fill:#fff;stroke:#2563eb;stroke-width:3;rx:18}.out{fill:#ecfdf5;stroke:#059669;stroke-width:3;rx:18}.line{stroke:#475569;stroke-width:3;fill:none;marker-end:url(#arrow)}.title{font:700 34px Arial,sans-serif;fill:#17365d}.label{font:700 22px Arial,sans-serif;fill:#17365d}.small{font:18px Arial,sans-serif;fill:#475569}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="540" rx="18"/>
+  <text class="title" x="600" y="52" text-anchor="middle">Verilog Simulation Workflow</text>
+  <rect class="box" x="55" y="115" width="220" height="105"/><text class="label" x="165" y="158" text-anchor="middle">RTL source</text><text class="small" x="165" y="190" text-anchor="middle">Design modules</text>
+  <rect class="box" x="55" y="290" width="220" height="105"/><text class="label" x="165" y="333" text-anchor="middle">Testbench</text><text class="small" x="165" y="365" text-anchor="middle">Inputs and assertions</text>
+  <rect class="box" x="365" y="200" width="220" height="105"/><text class="label" x="475" y="243" text-anchor="middle">Compile</text><text class="small" x="475" y="275" text-anchor="middle">Icarus Verilog</text>
+  <rect class="box" x="675" y="200" width="190" height="105"/><text class="label" x="770" y="243" text-anchor="middle">Run</text><text class="small" x="770" y="275" text-anchor="middle">VVP simulation</text>
+  <rect class="out" x="950" y="115" width="210" height="105"/><text class="label" x="1055" y="158" text-anchor="middle">Simulation log</text><text class="small" x="1055" y="190" text-anchor="middle">Pass/fail results</text>
+  <rect class="out" x="950" y="290" width="210" height="105"/><text class="label" x="1055" y="333" text-anchor="middle">VCD waveform</text><text class="small" x="1055" y="365" text-anchor="middle">Signal activity</text>
+  <rect class="out" x="675" y="410" width="190" height="95"/><text class="label" x="770" y="450" text-anchor="middle">GTKWave</text><text class="small" x="770" y="480" text-anchor="middle">Inspect and capture</text>
+  <path class="line" d="M275 167H355"/><path class="line" d="M275 342 L325 342 L325 255 L355 255"/><path class="line" d="M585 252H665"/>
+  <path class="line" d="M865 225 L910 225 L910 167 L940 167"/><path class="line" d="M865 280 L910 280 L910 342 L940 342"/><path class="line" d="M1055 395 L1055 455 L875 455"/>
+</svg>
