@@ -35,7 +35,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `cp` | Copy a source file | Pending |
 | `mv` | Rename/move a file | Pending |
 | `rm` | Remove a disposable file | Pending |
-| `cat` | Read a text file | Pending; command not yet run in the shared terminal record |
+| `cat linux_report/command_practice.md` | Displayed the Linux command practice report in the terminal | 2026-11-01 |
 | `nano` | Edit a text file | Pending |
 | `chmod` | Set script execute permission | Pending |
 
@@ -52,3 +52,4 @@ Run and record the actual result/date for each command. The examples below are a
 ## VLSI environment setup
 
 Record installation/configuration steps actually completed and attach terminal evidence if required by the instructor. Never include credentials or personal tokens in this report.
+
