@@ -1,3 +1,3 @@
 # GTKWave screenshots
 
-The mini-project VCD was inspected in GTKWave and its focused overflow screenshot is `arithmetic_logic_library.png`. It shows `a=F`, `b=1`, the AND/OR/XOR/ADD selection sequence, and addition producing result `0` with carry-out `1`. Other VCD files are available under `simulation/vcd/` for additional inspection. Do not use illustrative images from the assignment PDF as project evidence.
+Seven genuine GTKWave screenshots are included: `arithmetic_logic_library.png`, `and_gate.png`, `or_gate.png`, `xor_gate.png`, `half_adder.png`, `full_adder.png`, and `mux2to1.png`. The mini-project capture shows `a=F`, `b=1`, the AND/OR/XOR/ADD selection sequence, and addition producing result `0` with carry-out `1`. Other VCD files are available under `simulation/vcd/` for additional inspection. Do not use illustrative images from the assignment PDF as project evidence.
