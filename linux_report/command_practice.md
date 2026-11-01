@@ -9,6 +9,7 @@
 - GTKWave version: 3.3.126
 - Git version: 2.53.0
 - VS Code version in WSL: 1.138.0 (x64; commit `7debcd0e2acdea1c52de81bf9ee1620444407dda`)
+- Verilog extension in VS Code WSL: `mshr-h.veriloghdl` (confirmed by `code --list-extensions | grep -i verilog` on 2026-11-01)
 
 These version checks were run by the student on 2026-11-01. `lsb_release -a` printed `No LSB modules are available.` followed by the Ubuntu release information; the release information was still reported correctly.
 
@@ -22,6 +23,7 @@ These version checks were run by the student on 2026-11-01. `lsb_release -a` pri
 | `gtkwave --version` | GTKWave Analyzer v3.3.126 | 2026-11-01 |
 | `git --version` | git version 2.53.0 | 2026-11-01 |
 | `code --version` | VS Code 1.138.0, x64; commit `7debcd0e2acdea1c52de81bf9ee1620444407dda` | 2026-11-01 |
+| `code --list-extensions \| grep -i verilog` | `mshr-h.veriloghdl` | 2026-11-01 |
 
 ## Commands practiced
 
@@ -53,4 +55,4 @@ Run and record the actual result/date for each command. The examples below are a
 
 ## VLSI environment setup
 
-The reported version checks confirm that Ubuntu/WSL, Icarus Verilog, VVP, GTKWave, Git, and VS Code are available. VS Code Verilog extension installation/configuration has not been verified yet. The repository recommends the Verilog HDL/SystemVerilog extension in `.vscode/extensions.json`; after installing it in VS Code, record the observed extension name/version here if required by the instructor. Never include credentials or personal tokens in this report.
+The reported checks confirm that Ubuntu/WSL, Icarus Verilog, VVP, GTKWave, Git, and VS Code are available. The student confirmed the VS Code WSL extension `mshr-h.veriloghdl` with `code --list-extensions | grep -i verilog`. The repository recommends the same extension through `.vscode/extensions.json`. Never include credentials or personal tokens in this report.
