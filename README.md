@@ -4,7 +4,7 @@ Organized project submission for Sumerix Global's VLSI Design and Semiconductor 
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, along with observed Linux/Git command practice, are recorded in the reports.
+RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, including VS Code 1.138.0, plus observed Linux/Git command practice, are recorded in the reports.
 
 ## Contents
 

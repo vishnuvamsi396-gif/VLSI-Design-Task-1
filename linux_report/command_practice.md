@@ -8,6 +8,7 @@
 - VVP version: 12.0 (stable)
 - GTKWave version: 3.3.126
 - Git version: 2.53.0
+- VS Code version in WSL: 1.138.0 (x64; commit `7debcd0e2acdea1c52de81bf9ee1620444407dda`)
 
 These version checks were run by the student on 2026-11-01. `lsb_release -a` printed `No LSB modules are available.` followed by the Ubuntu release information; the release information was still reported correctly.
 
@@ -20,6 +21,7 @@ These version checks were run by the student on 2026-11-01. `lsb_release -a` pri
 | `vvp -V` | Icarus Verilog runtime 12.0 (stable) | 2026-11-01 |
 | `gtkwave --version` | GTKWave Analyzer v3.3.126 | 2026-11-01 |
 | `git --version` | git version 2.53.0 | 2026-11-01 |
+| `code --version` | VS Code 1.138.0, x64; commit `7debcd0e2acdea1c52de81bf9ee1620444407dda` | 2026-11-01 |
 
 ## Commands practiced
 
