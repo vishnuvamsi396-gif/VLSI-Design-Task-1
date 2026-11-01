@@ -31,7 +31,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `ls -lh waveforms/` | Confirmed the README and seven PNG waveform screenshots were present | 2026-11-01 |
 | `pwd` | Printed `/home/vishn/VLSI-Design-Task-1` | 2026-11-01 |
 | `cd ..` | Changed from the project folder to its parent; `pwd` showed `/home/vishn` | 2026-11-01 |
-| `mkdir -p` | Create project folders | Pending |
+| `mkdir -p ~/vlsi-task1-practice` | Created `/home/vishn/vlsi-task1-practice`; a later listing typo used `vlsi-task1-practic` and returned “No such file or directory” | 2026-11-01 |
 | `cp` | Copy a source file | Pending |
 | `mv` | Rename/move a file | Pending |
 | `rm` | Remove a disposable file | Pending |
