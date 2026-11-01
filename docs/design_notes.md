@@ -2,9 +2,20 @@
 
 ## Semiconductor and VLSI fundamentals
 
-An ASIC is a custom integrated circuit designed for a specific product or workload. It can offer strong performance, power, and area after fabrication, but carries non-recurring design and manufacturing cost and cannot be reconfigured after fabrication. An FPGA is a reconfigurable device made from programmable logic, routing, and I/O resources. It is useful for prototyping and lower-volume products, with faster iteration and lower up-front cost, usually at a higher per-unit area or power than a comparable ASIC. Examples include ASIC SoCs in phones and custom accelerators; FPGA boards in prototyping, instrumentation, and adaptable networking equipment.
+An ASIC is a custom integrated circuit designed for a specific product or workload. It can offer strong performance, power, and area after fabrication, but carries non-recurring design and manufacturing cost and cannot be reconfigured after fabrication. An FPGA is a reconfigurable device made from programmable logic, routing, and I/O resources.
+
+| Comparison | ASIC | FPGA |
+|---|---|---|
+| Hardware behavior | Fixed after fabrication | Reconfigurable after deployment |
+| Up-front cost | Higher design and fabrication cost | Lower initial cost; no custom mask set |
+| Per-unit economics | Often favorable at high volume | Often favorable for prototypes and low volume |
+| Typical use | Production SoCs, phone processors, custom accelerators | FPGA prototyping, instrumentation, adaptable networking |
+| Iteration | RTL changes generally require a new fabrication cycle to change silicon | Bitstream can be revised and loaded without fabricating a new chip |
+| Trade-off | Long development cycle and manufacturing commitment | Programmable routing and logic can cost power, area, or performance |
 
 Typical digital IC flow: specification -> architecture -> RTL -> functional verification -> synthesis -> implementation (floorplan, placement, clock-tree synthesis, routing) -> signoff -> fabrication. This repository covers introductory RTL and simulation, not physical design or signoff.
+
+Logic gate symbols are provided in [`diagrams/basic_logic_gates.svg`](diagrams/basic_logic_gates.svg). The mini-project RTL block and simulation workflow are in the same diagrams folder.
 
 ## Boolean functions and truth tables
 
