@@ -10,4 +10,5 @@ Add one entry after each real work session. Do not backdate or mark planned task
 | 2026-11-01 | Student used `cat linux_report/command_practice.md` to display and review the Linux practice report | `linux_report/command_practice.md` | Continue the remaining command exercises and record only observed results |
 | 2026-11-01 | Student practiced `cd ..` and `pwd`; confirmed the parent directory was `/home/vishn` | `linux_report/command_practice.md` | Return to the project folder and continue the remaining safe command exercises |
 | 2026-11-01 | Student created `/home/vishn/vlsi-task1-practice` with `mkdir -p`; a follow-up listing had a harmless path typo | `linux_report/command_practice.md` | Continue copy, rename, and file-reading practice in the scratch folder |
+| 2026-11-01 | Student copied `README.md` to `/home/vishn/vlsi-task1-practice/README-copy.md` and verified the 3,090-byte file with `ls -l` | `linux_report/command_practice.md` | Continue the remaining safe file-operation exercises if needed |
 
