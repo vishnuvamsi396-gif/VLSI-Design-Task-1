@@ -13,4 +13,5 @@ Add one entry after each real work session. Do not backdate or mark planned task
 | 2026-11-01 | Student copied `README.md` to `/home/vishn/vlsi-task1-practice/README-copy.md` and verified the 3,090-byte file with `ls -l` | `linux_report/command_practice.md` | Continue the remaining safe file-operation exercises if needed |
 | 2026-11-01 | Student renamed the scratch copy to `README-renamed.md` with `mv` and verified the result with `ls -l` | `linux_report/command_practice.md` | Continue the remaining safe file-operation exercises if needed |
 | 2026-11-01 | Student removed the disposable scratch copy with `rm` and verified that the scratch folder was empty | `linux_report/command_practice.md` | Continue any remaining required command practice |
+| 2026-11-01 | Student edited and saved a scratch note with `nano`, then verified its contents with `cat` | `linux_report/command_practice.md` | Verify the project run script's executable permission and record the result |
 
