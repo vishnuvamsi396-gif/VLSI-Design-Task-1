@@ -1,0 +1,3 @@
+VCD info: dumpfile simulation/vcd/tb_adders.vcd opened for output.
+PASS tb_adders (all half/full-adder input combinations)
+testbench/tb_adders.v:15: $finish called at 8000 (1ps)
