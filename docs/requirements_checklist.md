@@ -24,17 +24,6 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Ubuntu/WSL, Icarus, GTKWave, Git, and VS Code environment | `linux_report/command_practice.md` | Verified from student-reported terminal output; VS Code 1.138.0 (x64) |
 | LinkedIn post link | Submitted separately in the internship form | Separate required form field; publish the post and enter its URL there |
 
-## Expected outcomes and repository evidence
-
-| Expected outcome | Supporting evidence |
-|---|---|
-| Fully configured VLSI development environment | Ubuntu/WSL and Icarus Verilog, VVP, GTKWave, Git, and VS Code versions recorded in `linux_report/command_practice.md`; successful simulations are recorded under `simulation/results/`. |
-| Practical understanding of digital electronics and Boolean logic | Design notes include truth tables and Karnaugh-map simplifications; gate, adder, mux, and arithmetic/logic RTL implementations are in `rtl/`. The student should be ready to explain these designs during review. |
-| Working Verilog modules for basic combinational circuits | Synthesizable modules are organized in `rtl/`. |
-| Functional testbenches and verified simulation results | Self-checking testbenches are in `testbench/`; the six successful run logs are in `simulation/results/`, with VCDs in `simulation/vcd/`. |
-| Organized project documentation and version-controlled source code | This public GitHub repository contains the README, checklist, project report PDF, design notes, diagrams, Linux report, progress log, RTL, testbenches, and simulation evidence. |
-| Reusable RTL components for future processor and controller designs | The gate, mux, adder, and arithmetic/logic modules are reusable combinational building blocks in `rtl/`; no processor or controller is claimed as part of this task. |
-
 ## Evaluation areas (100 marks)
 
 | Area | Marks |
