@@ -27,7 +27,7 @@ The included suite was run in WSL using `bash scripts/run_all.sh`. All six testb
 
 ## 5. Waveform observations
 
-The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` and `b=1`, the operation select steps through AND (`00`), OR (`01`), XOR (`10`), and addition (`11`). During addition, the observed result is `0` and `carry_out` is `1`, as expected for 4-bit unsigned overflow. The genuine screenshot is `waveforms/arithmetic_logic_library.png`.
+The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` and `b=1`, the operation select steps through AND (`00`), OR (`01`), XOR (`10`), and addition (`11`). During addition, the observed result is `0` and `carry_out` is `1`, as expected for 4-bit unsigned overflow. Its genuine screenshot is `waveforms/arithmetic_logic_library.png`. Additional genuine captures from earlier runs cover AND, OR, XOR, half adder, full adder, and 2:1 mux in the same folder.
 
 ## 6. Environment and Linux practice
 
