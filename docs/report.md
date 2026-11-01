@@ -15,6 +15,8 @@ Build a small reusable combinational RTL library and practice the Task 1 workflo
 
 The RTL folder contains AND, OR, XOR, NOT, NAND, NOR, and XNOR gates; 2:1 and 4:1 multiplexers; half and full adders; a four-stage 4-bit ripple-carry adder; an unsigned parameterized adder; and a 4-bit mini-project unit selecting AND, OR, XOR, or addition.
 
+For the assignment's ASIC/FPGA comparison activity, the notes compare reconfigurability, up-front cost, typical applications, and design-cycle trade-offs. Gate symbols are drawn in `docs/diagrams/basic_logic_gates.svg`; the mini-project RTL and simulation workflows are described in `docs/diagrams/`.
+
 ## 3. Verification plan
 
 The testbenches exhaustively cover all 2-input gate combinations, the mux select/data cases, all half/full-adder inputs, all 512 input combinations of the 4-bit ripple adder, 1,024 deterministic 8-bit parameterized-adder cases, and every mini-project operation across all 4-bit operand pairs. Testbenches include assertions and generate VCD traces when run with Icarus Verilog.
