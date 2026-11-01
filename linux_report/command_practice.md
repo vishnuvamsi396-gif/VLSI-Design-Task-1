@@ -53,4 +53,4 @@ Run and record the actual result/date for each command. The examples below are a
 
 ## VLSI environment setup
 
-Record installation/configuration steps actually completed and attach terminal evidence if required by the instructor. Never include credentials or personal tokens in this report.
+The reported version checks confirm that Ubuntu/WSL, Icarus Verilog, VVP, GTKWave, Git, and VS Code are available. VS Code Verilog extension installation/configuration has not been verified yet. The repository recommends the Verilog HDL/SystemVerilog extension in `.vscode/extensions.json`; after installing it in VS Code, record the observed extension name/version here if required by the instructor. Never include credentials or personal tokens in this report.
