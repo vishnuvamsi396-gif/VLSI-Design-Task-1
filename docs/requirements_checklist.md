@@ -11,9 +11,13 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Testbench for every module family | `testbench/` | Prepared; all passed in WSL |
 | Simulation outputs | `simulation/results/` | Included: six successful run logs |
 | GTKWave screenshots | `waveforms/*.png` | Seven genuine captures included: mini-project, AND/OR/XOR, half/full adders, and 2:1 mux |
-| Logic gate diagrams, truth tables, K-map solutions | `docs/design_notes.md`, `docs/diagrams/` | Prepared |
-| RTL block diagram and simulation workflow | `docs/diagrams/` | Prepared |
+| Logic gate diagrams | `docs/diagrams/basic_logic_gates.svg` | Included |
+| Truth tables | `docs/design_notes.md` | Included for basic gates and NOT |
+| Karnaugh-map solutions | `docs/design_notes.md` | Included for AND, OR, and XOR |
+| RTL block diagram | `docs/diagrams/rtl_block_diagram.md` | Included for the 4-bit arithmetic/logic library |
+| Simulation workflow diagram | `docs/diagrams/simulation_workflow.md` | Included |
 | Project folder structure and README | `README.md` | Prepared |
+| GitHub repository | `https://github.com/vishnuvamsi396-gif/VLSI-Design-Task-1` | Public repository; all listed project deliverables are organized on `main` |
 | Project documentation PDF | `docs/task1_project_report.pdf`; editable source in `docs/report.md` | Included with waveform and reported environment evidence |
 | Linux command practice report | `linux_report/command_practice.md` | Ubuntu/tool versions and observed command exercises recorded |
 | Daily progress log | `progress_log/progress.md` | Actual dated project and student terminal-work entries recorded; add future work as completed |
