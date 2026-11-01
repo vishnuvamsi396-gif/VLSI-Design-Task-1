@@ -1,0 +1,5 @@
+simulation/build/
+*.out
+*.vvp
+*.log.tmp
+*~
