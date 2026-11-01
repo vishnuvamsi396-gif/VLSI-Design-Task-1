@@ -8,6 +8,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.platypus import (
+    Image,
     PageBreak,
     Paragraph,
     SimpleDocTemplate,
@@ -137,13 +138,13 @@ story.append(table([
     ["tb_parameterized_adder", "1,024 deterministic 8-bit cases", "PASS"],
     ["tb_arithmetic_logic_library", "All 4 operations across 16 x 16 operands", "PASS"],
 ], [50 * mm, 83 * mm, 31 * mm]))
-story += [Spacer(1, 4 * mm), P("The corresponding simulator logs are in `simulation/results/`; VCD traces are in `simulation/vcd/`. The run script is `scripts/run_all.sh` and returns a failure status if compilation or an assertion fails."), P("7. Waveform review and environment evidence", "Section"), P("PENDING: open the VCD files in GTKWave, inspect input/output transitions and carry propagation, and save genuine screenshots in `waveforms/`. VCD generation proves the simulator produced trace data; it does not prove that a person has visually inspected the traces."), P("PENDING: record the actual Ubuntu/WSL distribution and tool versions, and add the student's Linux command practice observations to `linux_report/command_practice.md`. This report does not claim a completed setup exercise."), P("8. Conclusion", "Section"), P("The RTL source and self-checking verification suite are prepared and the recorded simulator run passed all six testbenches. Waveform inspection, student environment evidence, and the final personal learning log remain to be completed before treating the submission checklist as fully complete."), P("Repository checklist", "SubSection")]
+story += [Spacer(1, 4 * mm), P("The corresponding simulator logs are in `simulation/results/`; VCD traces are in `simulation/vcd/`. The run script is `scripts/run_all.sh` and returns a failure status if compilation or an assertion fails."), PageBreak(), P("7. GTKWave waveform evidence", "Section"), P("The mini-project trace was inspected from 964 ns to 968 ns with a=F and b=1. The operation select steps through AND, OR, XOR, and addition. For operation 11 (addition), the observed result is 0 and carry_out is 1, demonstrating 4-bit unsigned overflow."), Image(str(ROOT / "waveforms" / "arithmetic_logic_library.png"), width=174 * mm, height=92.4 * mm), P("8. Environment evidence and conclusion", "Section"), P("The student's Ubuntu/WSL distribution, tool versions, and Linux command practice are not recorded yet. Add those personal observations to `linux_report/command_practice.md`."), P("The RTL source and self-checking verification suite are prepared and all six testbenches passed. One genuine GTKWave screenshot is included. Complete the local environment record and personal learning log before treating the submission checklist as fully complete."), P("Repository checklist", "SubSection")]
 story.append(table([
     ["Deliverable", "Status"],
     ["RTL and testbench source", "Prepared; all six testbenches passed"],
     ["Simulation logs and VCD traces", "Included from the recorded WSL run"],
     ["Logic/K-map/design notes and workflow diagrams", "Included in docs/"],
-    ["GTKWave screenshot evidence", "Pending actual visual inspection"],
+    ["GTKWave screenshot evidence", "Mini-project overflow waveform included"],
     ["Linux environment practice evidence", "Pending student completion"],
 ], [80 * mm, 84 * mm]))
 
