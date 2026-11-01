@@ -12,7 +12,7 @@ RTL and testbench sources are prepared. The included suite was run in WSL with I
 - `testbench/` - self-checking testbenches for every module family
 - `scripts/run_all.sh` - compile and run all testbenches with Icarus Verilog
 - `docs/` - assignment checklist, design notes, diagrams, and report source
-- [Diagrams gallery](docs/diagrams/README.md) - GitHub-previewable RTL, logic-gate, and simulation workflow drawings
+- [Diagrams gallery](docs/diagrams/README.md) - GitHub-previewable RTL, ripple-carry adder, logic-gate, and simulation workflow drawings
 - `simulation/` - location for genuine simulator logs and VCD files
 - `waveforms/` - location for genuine GTKWave screenshots
 - `linux_report/` - environment and command practice evidence
@@ -23,7 +23,10 @@ RTL and testbench sources are prepared. The included suite was run in WSL with I
 - Ubuntu Linux or WSL
 - Icarus Verilog (`iverilog` and `vvp`)
 - GTKWave for visual waveform inspection
+- Visual Studio Code with a Verilog HDL extension
 - Git
+
+This workspace recommends the Verilog HDL/SystemVerilog extension from the VS Code Marketplace in [`.vscode/extensions.json`](.vscode/extensions.json). Open the repository in VS Code and accept its extension recommendation. The recommendation file helps configure the workspace; install and verify the extension in your editor to complete the local setup.
 
 Check the tools with `iverilog -V`, `vvp -V`, `gtkwave --version`, and `git --version`.
 
