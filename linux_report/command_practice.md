@@ -36,7 +36,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `mv ~/vlsi-task1-practice/README-copy.md ~/vlsi-task1-practice/README-renamed.md` | Renamed the scratch copy; `ls -l` showed `README-renamed.md` (3,090 bytes) | 2026-11-01 |
 | `rm ~/vlsi-task1-practice/README-renamed.md` | Removed the disposable scratch copy; `ls -la` confirmed the scratch folder was empty | 2026-11-01 |
 | `cat linux_report/command_practice.md` | Displayed the Linux command practice report in the terminal | 2026-11-01 |
-| `nano` | Edit a text file | Pending |
+| `nano ~/vlsi-task1-practice/notes.txt` | Created and saved the line “Practiced editing a text file with nano.”; verified it with `cat` | 2026-11-01 |
 | `chmod` | Set script execute permission | Pending |
 
 ## Git commands practiced
