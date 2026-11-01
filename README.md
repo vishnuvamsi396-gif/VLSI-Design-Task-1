@@ -4,7 +4,7 @@ Starter submission for Sumerix Global's VLSI Design and Semiconductor Engineerin
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. GTKWave visual inspection/screenshots and the student's environment setup report are still pending.
+RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. The mini-project waveform was inspected in GTKWave and its screenshot is included; the student's environment setup report and any additional waveform views remain pending.
 
 ## Contents
 
@@ -43,7 +43,7 @@ Open a generated waveform, for example:
 gtkwave simulation/vcd/tb_arithmetic_logic_library.vcd
 ```
 
-Add the testbench signals to the GTKWave view, inspect transitions, and save an actual screenshot in `waveforms/`. No GTKWave screenshot is included yet; do not label an expected-output table as a simulation result.
+The verified mini-project screenshot is `waveforms/arithmetic_logic_library.png`. Add any additional testbench screenshots to `waveforms/`; do not label an expected-output table as a simulation result.
 
 ## Assignment checklist
 
