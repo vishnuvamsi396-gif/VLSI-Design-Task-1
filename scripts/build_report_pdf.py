@@ -85,7 +85,15 @@ story.append(table([
     ["Repository", "github.com/vishnuvamsi396-gif/VLSI-Design-Task-1"],
     ["Report date", "2026-11-01"],
 ], [34 * mm, 130 * mm], header=False))
-story += [Spacer(1, 7 * mm), P("1. Objective", "Section"), P("Implement a small reusable combinational RTL library and demonstrate the Task 1 workflow: digital logic design, synthesizable Verilog, self-checking testbenches, Icarus Verilog simulation, waveform generation, and organized version-controlled documentation."), P("2. Scope", "Section"), P("The project includes basic logic gates, 2:1 and 4:1 multiplexers, half and full adders, a 4-bit ripple-carry adder, a parameterized unsigned adder, and a 4-bit arithmetic/logic mini-project unit. The assignment also introduces Linux-based development and the VLSI design flow; this introductory submission does not claim physical design, synthesis signoff, or chip fabrication."), P("3. Design inventory", "Section")]
+story += [Spacer(1, 7 * mm), P("1. Objective", "Section"), P("Implement a small reusable combinational RTL library and demonstrate the Task 1 workflow: digital logic design, synthesizable Verilog, self-checking testbenches, Icarus Verilog simulation, waveform generation, and organized version-controlled documentation."), P("2. Scope", "Section"), P("The project includes basic logic gates, 2:1 and 4:1 multiplexers, half and full adders, a 4-bit ripple-carry adder, a parameterized unsigned adder, and a 4-bit arithmetic/logic mini-project unit. The assignment also introduces Linux-based development and the VLSI design flow; this introductory submission does not claim physical design, synthesis signoff, or chip fabrication."), P("ASIC and FPGA comparison", "SubSection")]
+story.append(table([
+    ["Criterion", "ASIC", "FPGA"],
+    ["Behavior", "Fixed after fabrication", "Reconfigurable after deployment"],
+    ["Up-front cost", "Higher design and fabrication cost", "Lower initial cost; no custom mask set"],
+    ["Typical use", "Production SoCs and custom accelerators", "Prototyping, instrumentation, adaptable networking"],
+    ["Main trade-off", "Manufacturing commitment and longer iteration", "Programmable resources can cost power, area, or speed"],
+], [31 * mm, 66 * mm, 66 * mm]))
+story += [P("3. Design inventory", "Section")]
 story.append(table([
     ["Design", "Interface / purpose"],
     ["Basic gates", "AND, OR, XOR, NOT, NAND, NOR, XNOR; one-bit truth-table functions."],
@@ -97,7 +105,7 @@ story.append(table([
     ["Mini-project unit", "4-bit AND, OR, XOR, or addition selected by a 2-bit operation code."],
 ], [42 * mm, 122 * mm]))
 
-story += [PageBreak(), P("4. Logic reference", "Section"), P("The following truth table is the reference for the single-bit gate implementation.")]
+story += [PageBreak(), P("4. Logic reference", "Section"), P("The following truth table is the reference for the single-bit gate implementation. A labeled symbol diagram for the basic gates is included as `docs/diagrams/basic_logic_gates.svg` in the repository.")]
 story.append(table([
     ["A", "B", "AND", "OR", "XOR", "NAND", "NOR", "XNOR"],
     ["0", "0", "0", "0", "0", "1", "1", "1"],
