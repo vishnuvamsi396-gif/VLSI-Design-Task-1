@@ -31,8 +31,8 @@ The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` a
 
 ## 6. Environment and Linux practice
 
-The student reported Ubuntu 26.04.1 LTS (release 26.04, codename resolute), Icarus Verilog 12.0, VVP 12.0, GTKWave 3.3.126, and Git 2.53.0 on 2026-11-01. The report also records observed `pwd`, `ls`, and Git commands used to inspect the repository and fetch the screenshots. Commands not yet demonstrated remain marked pending in `linux_report/command_practice.md`.
+The student reported Ubuntu 26.04.1 LTS (release 26.04, codename resolute), Icarus Verilog 12.0, VVP 12.0, GTKWave 3.3.126, and Git 2.53.0 on 2026-11-01. The report records observed Linux and Git command practice, including making the project run script executable. See `linux_report/command_practice.md` for command results.
 
 ## 7. Conclusion
 
-The repository contains the Task 1 RTL, testbenches, successful simulation logs, VCD traces, seven GTKWave screenshots, design notes, environment/version evidence, and generated project report. The checklist and Linux report identify remaining student command-practice evidence. Submit this public GitHub repository URL through the internship form; if it separately asks for a LinkedIn post URL, that is a separate submission field.
+The repository contains the Task 1 RTL, testbenches, successful simulation logs, VCD traces, seven GTKWave screenshots, design notes, environment/version evidence, and generated project report. The VS Code environment has not been verified here. Submit this public GitHub repository URL through the internship form; if it separately asks for a LinkedIn post URL, that is a separate submission field.

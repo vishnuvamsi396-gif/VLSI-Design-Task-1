@@ -37,7 +37,7 @@ Run and record the actual result/date for each command. The examples below are a
 | `rm ~/vlsi-task1-practice/README-renamed.md` | Removed the disposable scratch copy; `ls -la` confirmed the scratch folder was empty | 2026-11-01 |
 | `cat linux_report/command_practice.md` | Displayed the Linux command practice report in the terminal | 2026-11-01 |
 | `nano ~/vlsi-task1-practice/notes.txt` | Created and saved the line “Practiced editing a text file with nano.”; verified it with `cat` | 2026-11-01 |
-| `chmod` | Set script execute permission | Pending |
+| `chmod +x scripts/run_all.sh` | Set the run script executable; `ls -l` showed mode `-rwxr-xr-x` | 2026-11-01 |
 
 ## Git commands practiced
 
@@ -52,4 +52,3 @@ Run and record the actual result/date for each command. The examples below are a
 ## VLSI environment setup
 
 Record installation/configuration steps actually completed and attach terminal evidence if required by the instructor. Never include credentials or personal tokens in this report.
-

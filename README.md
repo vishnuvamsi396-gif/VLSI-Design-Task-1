@@ -4,7 +4,7 @@ Organized project submission for Sumerix Global's VLSI Design and Semiconductor 
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, along with several Linux/Git command observations, are recorded. Additional listed command exercises remain pending in the practice report.
+RTL and testbench sources are prepared. The included suite was run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project, AND/OR/XOR gates, half/full adders, and 2:1 mux. Ubuntu and tool versions, along with observed Linux/Git command practice, are recorded in the reports.
 
 ## Contents
 
@@ -47,7 +47,7 @@ GTKWave screenshots are in `waveforms/`. The project includes the mini-project o
 
 ## Assignment checklist
 
-See [`docs/requirements_checklist.md`](docs/requirements_checklist.md). The generated report PDF is `docs/task1_project_report.pdf`; its reproducible source is `scripts/build_report_pdf.py`. The PDF includes the seven GTKWave screenshots and the reported Ubuntu/tool versions. The Linux practice report marks only commands with observed terminal evidence as completed.
+See [`docs/requirements_checklist.md`](docs/requirements_checklist.md). The generated report PDF is `docs/task1_project_report.pdf`; its reproducible source is `scripts/build_report_pdf.py`. The PDF includes the seven GTKWave screenshots and the reported Ubuntu/tool versions. The Linux practice report marks commands complete only when their terminal results were observed.
 
 ## Mini-project
 
