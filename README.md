@@ -12,6 +12,7 @@ RTL and testbench sources are prepared. The included suite was run in WSL with I
 - `testbench/` - self-checking testbenches for every module family
 - `scripts/run_all.sh` - compile and run all testbenches with Icarus Verilog
 - `docs/` - assignment checklist, design notes, diagrams, and report source
+- [Diagrams gallery](docs/diagrams/README.md) - GitHub-previewable RTL, logic-gate, and simulation workflow drawings
 - `simulation/` - location for genuine simulator logs and VCD files
 - `waveforms/` - location for genuine GTKWave screenshots
 - `linux_report/` - environment and command practice evidence
