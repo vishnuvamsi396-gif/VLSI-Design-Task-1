@@ -15,7 +15,7 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | RTL block diagram and simulation workflow | `docs/diagrams/` | Prepared |
 | Project folder structure and README | `README.md` | Prepared |
 | Project documentation PDF | `docs/task1_project_report.pdf`; editable source in `docs/report.md` | Included; update after GTKWave/environment evidence |
-| Linux command practice report | `linux_report/command_practice.md` | Template prepared; actual command evidence pending |
+| Linux command practice report | `linux_report/command_practice.md` | Ubuntu/tool versions recorded; remaining command-practice observations pending |
 | Daily progress log | `progress_log/progress.md` | Template prepared; fill with actual dates/work |
 | Ubuntu/WSL, Icarus, GTKWave, VS Code environment | Local machine | Must be verified by student |
 

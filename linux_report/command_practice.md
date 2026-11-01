@@ -2,12 +2,24 @@
 
 ## Environment
 
-- Distribution and version: **record after checking locally**
-- Ubuntu or WSL: **record which environment is used**
-- Icarus Verilog version: **pending `iverilog -V`**
-- VVP version: **pending `vvp -V`**
-- GTKWave version: **pending `gtkwave --version`**
-- Git version: **pending `git --version`**
+- Distribution and version: Ubuntu 26.04.1 LTS (release 26.04, codename resolute)
+- Environment: Ubuntu terminal at `~/VLSI-Design-Task-1`
+- Icarus Verilog version: 12.0 (stable)
+- VVP version: 12.0 (stable)
+- GTKWave version: 3.3.126
+- Git version: 2.53.0
+
+These version checks were run by the student on 2026-11-01. `lsb_release -a` printed `No LSB modules are available.` followed by the Ubuntu release information; the release information was still reported correctly.
+
+## Commands actually checked
+
+| Command | Observed result | Date |
+|---|---|---|
+| `lsb_release -a` | Ubuntu 26.04.1 LTS, release 26.04, codename resolute | 2026-11-01 |
+| `iverilog -V` | Icarus Verilog 12.0 (stable) | 2026-11-01 |
+| `vvp -V` | Icarus Verilog runtime 12.0 (stable) | 2026-11-01 |
+| `gtkwave --version` | GTKWave Analyzer v3.3.126 | 2026-11-01 |
+| `git --version` | git version 2.53.0 | 2026-11-01 |
 
 ## Commands practiced
 

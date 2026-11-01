@@ -31,7 +31,7 @@ The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` a
 
 ## 6. Environment and Linux practice
 
-**Pending local verification.** Record actual Ubuntu/WSL version and `iverilog -V`, `vvp -V`, `gtkwave --version`, and `git --version` output in `linux_report/command_practice.md`.
+The student reported Ubuntu 26.04.1 LTS (release 26.04, codename resolute), Icarus Verilog 12.0, VVP 12.0, GTKWave 3.3.126, and Git 2.53.0 on 2026-11-01. The exact checks are recorded in `linux_report/command_practice.md`. The remaining listed Linux navigation and file-management commands still need actual practice notes before being marked complete.
 
 ## 7. Conclusion
 

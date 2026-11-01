@@ -4,7 +4,7 @@ Starter submission for Sumerix Global's VLSI Design and Semiconductor Engineerin
 
 ## Project status
 
-RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project and the earlier AND/OR/XOR, half/full-adder, and 2:1 mux runs. The student's environment setup report remains pending.
+RTL and testbench sources are prepared. The included suite has been run in WSL with Icarus Verilog; all six testbenches passed and produced logs and VCD files. Seven genuine GTKWave screenshots are included for the mini-project and the earlier AND/OR/XOR, half/full-adder, and 2:1 mux runs. Ubuntu and tool versions are recorded; remaining Linux command-practice notes are pending.
 
 ## Contents
 
