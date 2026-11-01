@@ -14,7 +14,7 @@ Source: *Industry-Oriented Internship Program on VLSI Design and Semiconductor E
 | Logic gate diagrams | `docs/diagrams/basic_logic_gates.svg` | Included |
 | Truth tables | `docs/design_notes.md` | Included for basic gates and NOT |
 | Karnaugh-map solutions | `docs/design_notes.md` | Included for AND, OR, and XOR |
-| RTL block diagram | `docs/diagrams/rtl_block_diagram.md` | Included for the 4-bit arithmetic/logic library |
+| RTL block diagram | `docs/diagrams/rtl_block_diagram.md`, `docs/diagrams/rtl_block_diagram.svg` | Static SVG is embedded in the Markdown page for GitHub preview |
 | Simulation workflow diagram | `docs/diagrams/simulation_workflow.md` | Included |
 | Project folder structure and README | `README.md` | Prepared |
 | GitHub repository | `https://github.com/vishnuvamsi396-gif/VLSI-Design-Task-1` | Public repository; all listed project deliverables are organized on `main` |
