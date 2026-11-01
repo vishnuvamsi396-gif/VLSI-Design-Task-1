@@ -5,7 +5,7 @@
 **Project:** Digital Arithmetic Logic Circuit Library Using Verilog HDL  
 **Repository:** https://github.com/vishnuvamsi396-gif/VLSI-Design-Task-1
 
-The generated PDF snapshot is `docs/task1_project_report.pdf`. Rebuild it with `python3 scripts/build_report_pdf.py` after updating this editable report and adding the remaining evidence.
+The generated PDF snapshot is `docs/task1_project_report.pdf`. Rebuild it with `python3 scripts/build_report_pdf.py` after updating this editable report.
 
 ## 1. Objective
 
@@ -23,16 +23,16 @@ The testbenches exhaustively cover all 2-input gate combinations, the mux select
 
 ## 4. Simulation results
 
-The included suite was run in WSL using `bash scripts/run_all.sh`. All six testbenches compiled and passed their self-checks: gate combinations, mux selections, half/full-adder combinations, all 512 4-bit ripple-adder cases, 1,024 deterministic 8-bit parameterized-adder cases, and 1,024 operation/operand cases for the mini-project. Per-test simulator output is saved in `simulation/results/`, and VCD traces are in `simulation/vcd/`. The run date was 2026-11-01. GTKWave visual inspection remains pending.
+The included suite was run in WSL using `bash scripts/run_all.sh`. All six testbenches compiled and passed their self-checks: gate combinations, mux selections, half/full-adder combinations, all 512 4-bit ripple-adder cases, 1,024 deterministic 8-bit parameterized-adder cases, and 1,024 operation/operand cases for the mini-project. Per-test simulator output is saved in `simulation/results/`, and VCD traces are in `simulation/vcd/`. The run date was 2026-11-01.
 
 ## 5. Waveform observations
 
-The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` and `b=1`, the operation select steps through AND (`00`), OR (`01`), XOR (`10`), and addition (`11`). During addition, the observed result is `0` and `carry_out` is `1`, as expected for 4-bit unsigned overflow. Its genuine screenshot is `waveforms/arithmetic_logic_library.png`. Additional genuine captures from earlier runs cover AND, OR, XOR, half adder, full adder, and 2:1 mux in the same folder.
+The mini-project waveform was inspected in GTKWave over 964-968 ns. With `a=F` and `b=1`, the operation select steps through AND (`00`), OR (`01`), XOR (`10`), and addition (`11`). During addition, the observed result is `0` and `carry_out` is `1`, as expected for 4-bit unsigned overflow. Its screenshot is `waveforms/arithmetic_logic_library.png`. Six additional GTKWave screenshots supplied from earlier runs cover AND, OR, XOR, half adder, full adder, and 2:1 mux; all seven are included in the PDF and repository.
 
 ## 6. Environment and Linux practice
 
-The student reported Ubuntu 26.04.1 LTS (release 26.04, codename resolute), Icarus Verilog 12.0, VVP 12.0, GTKWave 3.3.126, and Git 2.53.0 on 2026-11-01. The exact checks are recorded in `linux_report/command_practice.md`. The remaining listed Linux navigation and file-management commands still need actual practice notes before being marked complete.
+The student reported Ubuntu 26.04.1 LTS (release 26.04, codename resolute), Icarus Verilog 12.0, VVP 12.0, GTKWave 3.3.126, and Git 2.53.0 on 2026-11-01. The report also records observed `pwd`, `ls`, and Git commands used to inspect the repository and fetch the screenshots. Commands not yet demonstrated remain marked pending in `linux_report/command_practice.md`.
 
 ## 7. Conclusion
 
-This source repository is organized for the required Task 1 deliverables. Completion of simulation, waveform review, local environment evidence, and final PDF export remains dependent on running the project in the student's development environment.
+The repository contains the Task 1 RTL, testbenches, successful simulation logs, VCD traces, seven GTKWave screenshots, design notes, environment/version evidence, and generated project report. The checklist and Linux report identify remaining student command-practice evidence. Submit this public GitHub repository URL through the internship form; if it separately asks for a LinkedIn post URL, that is a separate submission field.

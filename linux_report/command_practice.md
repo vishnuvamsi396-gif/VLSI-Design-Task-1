@@ -27,16 +27,27 @@ Run and record the actual result/date for each command. The examples below are a
 
 | Command | Example purpose | Actual result/date |
 |---|---|---|
-| `ls` | List directory contents | Pending |
-| `pwd` | Print current directory | Pending |
+| `ls -la` | Listed the project root, including hidden `.git` and `.gitignore` entries and project folders | 2026-11-01 |
+| `ls -lh waveforms/` | Confirmed the README and seven PNG waveform screenshots were present | 2026-11-01 |
+| `pwd` | Printed `/home/vishn/VLSI-Design-Task-1` | 2026-11-01 |
 | `cd` | Change directory | Pending |
 | `mkdir -p` | Create project folders | Pending |
 | `cp` | Copy a source file | Pending |
 | `mv` | Rename/move a file | Pending |
 | `rm` | Remove a disposable file | Pending |
-| `cat` | Read a text file | Pending |
+| `cat` | Read a text file | Pending; command not yet run in the shared terminal record |
 | `nano` | Edit a text file | Pending |
 | `chmod` | Set script execute permission | Pending |
+
+## Git commands practiced
+
+| Command | Observed result | Date |
+|---|---|---|
+| `git remote -v` | `origin` fetch and push URLs point to this public GitHub repository | 2026-11-01 |
+| `git status` | Confirmed `main` tracked `origin/main`; after restoring timestamp-only VCD date changes, the working tree was clean | 2026-11-01 |
+| `git diff --stat` and `git diff -- simulation/vcd/tb_basic_gates.vcd` | Found the six VCD changes were generated-date-only | 2026-11-01 |
+| `git restore simulation/vcd/` | Restored only generated VCD files; subsequent status was clean | 2026-11-01 |
+| `git pull origin main` | Fast-forwarded local `main` and downloaded the seven waveform screenshots and report updates | 2026-11-01 |
 
 ## VLSI environment setup
 
