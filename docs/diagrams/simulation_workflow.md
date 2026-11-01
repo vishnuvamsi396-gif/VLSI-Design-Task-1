@@ -1,13 +1,7 @@
 # Simulation workflow
 
-```mermaid
-flowchart LR
-  RTL[Verilog RTL] --> COMPILE[iverilog compile]
-  TB[Testbench] --> COMPILE
-  COMPILE --> RUN[vvp simulation]
-  RUN --> CHECK[Self-check assertions]
-  RUN --> VCD[VCD waveform]
-  CHECK --> LOG[Simulation log]
-  VCD --> GTK[GTKWave inspection]
-  GTK --> SHOT[Save genuine screenshot]
-```
+The diagram below shows how the RTL and testbench are compiled, simulated, checked, and inspected.
+
+![Verilog simulation workflow](simulation_workflow.svg)
+
+The self-checking testbench writes the simulation log; the simulator writes the VCD waveform. Open the VCD in GTKWave and save the resulting screenshot for the project evidence.
